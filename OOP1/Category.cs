@@ -15,5 +15,4 @@ namespace OOP1
             Console.WriteLine($"{Id}\t{Name}");
         }
     }
-    //////////helooooo pushhhh//////
 }
