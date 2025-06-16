@@ -1,0 +1,31 @@
+﻿<Window x:Class="BuntonControl_TongHop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BuntonControl_TongHop"
+        mc:Ignorable="d"
+        Title="Tổng 2 số" Height="373" Width="851">
+    <StackPanel>
+        <Label Target="{Binding ElementName=txtA}">
+            Hệ số_a:
+        </Label>
+        <TextBox Name="txtA"></TextBox>
+        <Label Target="{Binding ElementName=txtB}">
+            Hệ số_b:
+        </Label>
+        <TextBox Name="txtB"></TextBox>
+        <TextBlock>Kết quả:</TextBlock>
+        <TextBlock Name="tbKetQua"background="Yellow"></TextBlock>
+        <StackPanel Orientation="Horizontal" >
+            <Image
+                Source="/images/sum2.png"
+            <Button Name="btnTong" Content="Tổng" Click="btnTong_Click"></Button>
+            <Button Name="btnThoat" Content="Thoát" Click="btnThoat_Click"></Button>
+        </StackPanel>
+    
+
+    
+
+
+</Window>
