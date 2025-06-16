@@ -41,6 +41,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP4_Generic_Collection", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP5_Dictionary", "OOP5_Dictionary\OOP5_Dictionary.csproj", "{00776609-68DD-455E-A09C-E8E7F41DECA4}"
 EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +124,7 @@ Global
 		{00776609-68DD-455E-A09C-E8E7F41DECA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00776609-68DD-455E-A09C-E8E7F41DECA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00776609-68DD-455E-A09C-E8E7F41DECA4}.Release|Any CPU.Build.0 = Release|Any CPU
+
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
